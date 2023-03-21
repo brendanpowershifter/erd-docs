@@ -5,7 +5,5 @@ erDiagram
     string title
     asset image
     text description
-    string twitterHandle
-    string facebookHandle
   }
 ```
