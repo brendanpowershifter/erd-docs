@@ -1,0 +1,29 @@
+{
+  "name": "icbc-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild render-mermaid.ts --platform=node --outfile=render-mermaid.js",
+    "render": "node render-mermaid.js",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendanpowershifter/erd-docs.git"
+  },
+  "author": "Brendan Betts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendanpowershifter/erd-docs/issues"
+  },
+  "homepage": "https://github.com/brendanpowershifter/erd-docs#readme",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^10.0.2",
+    "esbuild": "0.17.12"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0"
+  }
+}
