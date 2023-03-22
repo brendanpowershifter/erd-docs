@@ -1,0 +1,88 @@
+.error-icon {
+  fill:#552222;
+ }
+
+.error-text {
+  fill:#552222;
+  stroke:#552222;
+ }
+
+.edge-thickness-normal {
+  stroke-width:2px;
+ }
+
+.edge-thickness-thick {
+  stroke-width:3.5px;
+ }
+
+.edge-pattern-solid {
+  stroke-dasharray:0;
+ }
+
+.edge-pattern-dashed {
+  stroke-dasharray:3;
+ }
+
+.edge-pattern-dotted {
+  stroke-dasharray:2;
+ }
+
+.marker {
+  fill:#333333;
+  stroke:#333333;
+ }
+
+.marker.cross {
+  stroke:#333333;
+ }
+
+svg {
+  font-family:"trebuchet ms",verdana,arial,sans-serif;
+  font-size:16px;
+ }
+
+.entityBox {
+  fill: var(--main-blue) !important;
+  color: #fff !important;
+  stroke: var(--main-blue) !important;
+ }
+
+ g .entityLabel:first-of-type {
+  fill: #fff !important;
+ }
+
+.attributeBoxOdd {
+  fill:#ffffff;
+ stroke: var(--main-blue) !important;
+ }
+
+.attributeBoxEven {
+  fill: rgb(229, 255, 255) !important;
+  stroke: var(--main-blue) !important;
+ }
+
+.relationshipLabelBox {
+  fill:hsl(196, 100%, 90%) !important;
+  opacity:0.7;
+ }
+
+.relationshipLabelBox rect {
+  opacity:0.5;
+ }
+
+.relationshipLine {
+  stroke:#333333;
+ }
+
+.entityTitleText {
+  text-anchor:middle;
+  font-size:18px;
+  color: #fff !important;
+ }
+
+:root {
+  --mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;
+ --main-blue: rgb(0, 174, 239);
+ --main-purple: rgb(133, 38, 255);
+}
+

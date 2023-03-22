@@ -1,16 +1,16 @@
-import { readdirSync} from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 import { parse } from 'node:path'
-import { run } from '@mermaid-js/mermaid-cli'
+import { run, cli } from '@mermaid-js/mermaid-cli'
 
 const defaultInputDir = './src'
 const defaultOutputDir = './build'
 
 const renderMermaid = async (input = defaultInputDir, output = defaultOutputDir) => {
-  // get a list of all files in the input directory and filter out all files that are not .md files
+  const styles = readFileSync('./style.css', 'utf-8')
   const files = readdirSync(input)
 
   for(const file of files) {
-    await run(`./src/${file}`, `./renders/${parse(file).name}.svg`)
+    await run(`./src/${file}`, `./renders/${parse(file).name}.svg`, { parseMMDOptions: { backgroundColor: 'transparent', myCSS: styles, mermaidConfig: { theme: 'null'}} })
   }
 }
 

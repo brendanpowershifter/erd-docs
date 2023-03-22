@@ -1,0 +1,89 @@
+<svg aria-roledescription="er" role="graphics-document document" viewBox="0 0 715.3541870117188 320.458984375" style="max-width: 715.354px; background-color: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid-1679522933237"><style>#mermaid-1679522933237{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#mermaid-1679522933237 .error-icon{fill:#552222;}#mermaid-1679522933237 .error-text{fill:#552222;stroke:#552222;}#mermaid-1679522933237 .edge-thickness-normal{stroke-width:2px;}#mermaid-1679522933237 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1679522933237 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1679522933237 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1679522933237 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1679522933237 .marker{fill:#333333;stroke:#333333;}#mermaid-1679522933237 .marker.cross{stroke:#333333;}#mermaid-1679522933237 svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-1679522933237 .entityBox{fill:#ECECFF;stroke:#9370DB;}#mermaid-1679522933237 .attributeBoxOdd{fill:#ffffff;stroke:#9370DB;}#mermaid-1679522933237 .attributeBoxEven{fill:#f2f2f2;stroke:#9370DB;}#mermaid-1679522933237 .relationshipLabelBox{fill:hsl(80, 100%, 96.2745098039%);opacity:0.7;background-color:hsl(80, 100%, 96.2745098039%);}#mermaid-1679522933237 .relationshipLabelBox rect{opacity:0.5;}#mermaid-1679522933237 .relationshipLine{stroke:#333333;}#mermaid-1679522933237 .entityTitleText{text-anchor:middle;font-size:18px;fill:#333;}#mermaid-1679522933237 :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g/><defs><marker orient="auto" markerHeight="18" markerWidth="18" refY="9" refX="0" id="ONLY_ONE_START"><path d="M9,0 L9,18 M15,0 L15,18" fill="none" stroke="gray"/></marker></defs><defs><marker orient="auto" markerHeight="18" markerWidth="18" refY="9" refX="18" id="ONLY_ONE_END"><path d="M3,0 L3,18 M9,0 L9,18" fill="none" stroke="gray"/></marker></defs><defs><marker orient="auto" markerHeight="18" markerWidth="30" refY="9" refX="0" id="ZERO_OR_ONE_START"><circle r="6" cy="9" cx="21" fill="white" stroke="gray"/><path d="M9,0 L9,18" fill="none" stroke="gray"/></marker></defs><defs><marker orient="auto" markerHeight="18" markerWidth="30" refY="9" refX="30" id="ZERO_OR_ONE_END"><circle r="6" cy="9" cx="9" fill="white" stroke="gray"/><path d="M21,0 L21,18" fill="none" stroke="gray"/></marker></defs><defs><marker orient="auto" markerHeight="36" markerWidth="45" refY="18" refX="18" id="ONE_OR_MORE_START"><path d="M0,18 Q 18,0 36,18 Q 18,36 0,18 M42,9 L42,27" fill="none" stroke="gray"/></marker></defs><defs><marker orient="auto" markerHeight="36" markerWidth="45" refY="18" refX="27" id="ONE_OR_MORE_END"><path d="M3,9 L3,27 M9,18 Q27,0 45,18 Q27,36 9,18" fill="none" stroke="gray"/></marker></defs><defs><marker orient="auto" markerHeight="36" markerWidth="57" refY="18" refX="18" id="ZERO_OR_MORE_START"><circle r="6" cy="18" cx="48" fill="white" stroke="gray"/><path d="M0,18 Q18,0 36,18 Q18,36 0,18" fill="none" stroke="gray"/></marker></defs><defs><marker orient="auto" markerHeight="36" markerWidth="57" refY="18" refX="39" id="ZERO_OR_MORE_END"><circle r="6" cy="18" cx="9" fill="white" stroke="gray"/><path d="M21,18 Q39,0 57,18 Q39,36 21,18" fill="none" stroke="gray"/></marker></defs><path style="stroke: gray; fill: none;" marker-start="url(#ONLY_ONE_START)" marker-end="url(#ONE_OR_MORE_END)" d="M560.65625,199.73021121476287L572.3229166666666,197.80577497063572C583.9895833333334,195.8813387265086,607.3229166666666,192.0324662382543,621.90625,190.10802999412715C636.4895833333334,188.18359375,642.3229166666666,188.18359375,648.15625,197.53987630208334C653.9895833333334,206.89615885416666,659.8229166666666,225.60872395833334,659.8229166666666,244.3212890625C659.8229166666666,263.0338541666667,653.9895833333334,281.7464192708333,648.15625,291.1027018229167C642.3229166666666,300.458984375,636.4895833333334,300.458984375,621.90625,298.53454813087285C607.3229166666666,296.6101118867457,583.9895833333334,292.76123939849145,572.3229166666666,290.8368031543643L560.65625,288.91236691023715" class="er relationshipLine"/><path style="stroke: gray; fill: none;" marker-start="url(#ONLY_ONE_START)" marker-end="url(#ONE_OR_MORE_END)" d="M290.328125,88.18359375L290.328125,96.51692708333333C290.328125,104.85026041666667,290.328125,121.51692708333333,290.328125,138.18359375C290.328125,154.85026041666666,290.328125,171.51692708333334,290.328125,179.85026041666666L290.328125,188.18359375" class="er relationshipLine"/><g transform="translate(20,188.18359375 )" id="entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb"><rect height="112.27539253234863" width="540.65625" y="0" x="0" class="er entityBox"/><text style="dominant-baseline: middle; text-anchor: middle; font-size: 12px;" transform="translate(270.328125,12)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb" class="er entityLabel">Page</text><rect height="22.091797828674316" width="74.078125" y="24" x="0" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,35.04589891433716)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-1-type" class="er entityLabel">string</text><rect height="22.091797828674316" width="72.328125" y="24" x="74.078125" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(79.078125,35.04589891433716)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-1-name" class="er entityLabel">name</text><rect height="22.091797828674316" width="21.5625" y="24" x="146.40625" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(151.40625,35.04589891433716)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-1-key" class="er entityLabel">PK</text><rect height="22.091797828674316" width="372.6875" y="24" x="167.96875" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(172.96875,35.04589891433716)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-1-comment" class="er entityLabel"/><rect height="22.091797828674316" width="74.078125" y="46.091797828674316" x="0" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,57.137696743011475)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-2-type" class="er entityLabel">string</text><rect height="22.091797828674316" width="72.328125" y="46.091797828674316" x="74.078125" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(79.078125,57.137696743011475)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-2-name" class="er entityLabel">slug</text><rect height="22.091797828674316" width="21.5625" y="46.091797828674316" x="146.40625" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(151.40625,57.137696743011475)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-2-key" class="er entityLabel"/><rect height="22.091797828674316" width="372.6875" y="46.091797828674316" x="167.96875" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(172.96875,57.137696743011475)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-2-comment" class="er entityLabel"/><rect height="22" width="74.078125" y="68.18359565734863" x="0" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,79.18359565734863)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-3-type" class="er entityLabel">bool</text><rect height="22" width="72.328125" y="68.18359565734863" x="74.078125" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(79.078125,79.18359565734863)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-3-name" class="er entityLabel">isVisibleInNav</text><rect height="22" width="21.5625" y="68.18359565734863" x="146.40625" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(151.40625,79.18359565734863)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-3-key" class="er entityLabel"/><rect height="22" width="372.6875" y="68.18359565734863" x="167.96875" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(172.96875,79.18359565734863)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-3-comment" class="er entityLabel"/><rect height="22.091796875" width="74.078125" y="90.18359565734863" x="0" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,101.22949409484863)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-4-type" class="er entityLabel">pageTemplate</text><rect height="22.091796875" width="72.328125" y="90.18359565734863" x="74.078125" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(79.078125,101.22949409484863)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-4-name" class="er entityLabel">template</text><rect height="22.091796875" width="21.5625" y="90.18359565734863" x="146.40625" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(151.40625,101.22949409484863)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-4-key" class="er entityLabel"/><rect height="22.091796875" width="372.6875" y="90.18359565734863" x="167.96875" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(172.96875,101.22949409484863)" y="0" x="0" id="text-entity-Page-7a725333-9963-54c6-94fb-e69f5a16bdeb-attr-4-comment" class="er entityLabel">This will be a reference to either a Directory, Sub-Directory, or Topic Page type</text></g><g transform="translate(240.328125,20 )" id="entity-Navigation-d2042281-7988-5ce6-a47b-6308a5d8f626"><rect height="68.18359470367432" width="100" y="0" x="0" class="er entityBox"/><text style="dominant-baseline: middle; text-anchor: middle; font-size: 12px;" transform="translate(50,12)" y="0" x="0" id="text-entity-Navigation-d2042281-7988-5ce6-a47b-6308a5d8f626" class="er entityLabel">Navigation</text><rect height="22.091797828674316" width="40.338541666666664" y="24" x="0" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,35.04589891433716)" y="0" x="0" id="text-entity-Navigation-d2042281-7988-5ce6-a47b-6308a5d8f626-attr-1-type" class="er entityLabel">string</text><rect height="22.091797828674316" width="36.979166666666664" y="24" x="40.338541666666664" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(45.338541666666664,35.04589891433716)" y="0" x="0" id="text-entity-Navigation-d2042281-7988-5ce6-a47b-6308a5d8f626-attr-1-name" class="er entityLabel">name</text><rect height="22.091797828674316" width="22.682291666666668" y="24" x="77.31770833333333" class="er attributeBoxOdd"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(82.31770833333333,35.04589891433716)" y="0" x="0" id="text-entity-Navigation-d2042281-7988-5ce6-a47b-6308a5d8f626-attr-1-key" class="er entityLabel">PK</text><rect height="22.091796875" width="40.338541666666664" y="46.091797828674316" x="0" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(5,57.137696266174316)" y="0" x="0" id="text-entity-Navigation-d2042281-7988-5ce6-a47b-6308a5d8f626-attr-2-type" class="er entityLabel">page[]</text><rect height="22.091796875" width="36.979166666666664" y="46.091797828674316" x="40.338541666666664" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(45.338541666666664,57.137696266174316)" y="0" x="0" id="text-entity-Navigation-d2042281-7988-5ce6-a47b-6308a5d8f626-attr-2-name" class="er entityLabel">pages</text><rect height="22.091796875" width="22.682291666666668" y="46.091797828674316" x="77.31770833333333" class="er attributeBoxEven"/><text style="dominant-baseline: middle; font-size: 10.2px;" transform="translate(82.31770833333333,57.137696266174316)" y="0" x="0" id="text-entity-Navigation-d2042281-7988-5ce6-a47b-6308a5d8f626-attr-2-key" class="er entityLabel"/></g><rect height="14" width="71.015625" y="237.3212890625" x="624.3151245117188" class="er relationshipLabelBox"/><text style="text-anchor: middle; dominant-baseline: middle; font-size: 12px;" y="244.3212890625" x="659.8229370117188" id="rel1" class="er relationshipLabel">is Subpage of</text><rect height="14" width="44.84375" y="131.18359375" x="267.90625" class="er relationshipLabelBox"/><text style="text-anchor: middle; dominant-baseline: middle; font-size: 12px;" y="138.18359375" x="290.328125" id="rel2" class="er relationshipLabel">contains</text><style>.error-icon {
+  fill:#552222;
+ }
+
+.error-text {
+  fill:#552222;
+  stroke:#552222;
+ }
+
+.edge-thickness-normal {
+  stroke-width:2px;
+ }
+
+.edge-thickness-thick {
+  stroke-width:3.5px;
+ }
+
+.edge-pattern-solid {
+  stroke-dasharray:0;
+ }
+
+.edge-pattern-dashed {
+  stroke-dasharray:3;
+ }
+
+.edge-pattern-dotted {
+  stroke-dasharray:2;
+ }
+
+.marker {
+  fill:#333333;
+  stroke:#333333;
+ }
+
+.marker.cross {
+  stroke:#333333;
+ }
+
+svg {
+  font-family:"trebuchet ms",verdana,arial,sans-serif;
+  font-size:16px;
+ }
+
+.entityBox {
+  fill: var(--main-blue) !important;
+  color: #fff !important;
+  stroke: var(--main-blue) !important;
+ }
+
+ g .entityLabel:first-of-type {
+  fill: #fff !important;
+ }
+
+.attributeBoxOdd {
+  fill:#ffffff;
+ stroke: var(--main-blue) !important;
+ }
+
+.attributeBoxEven {
+  fill: rgb(229, 255, 255) !important;
+  stroke: var(--main-blue) !important;
+ }
+
+.relationshipLabelBox {
+  fill:hsl(196, 100%, 90%) !important;
+  opacity:0.7;
+ }
+
+.relationshipLabelBox rect {
+  opacity:0.5;
+ }
+
+.relationshipLine {
+  stroke:#333333;
+ }
+
+.entityTitleText {
+  text-anchor:middle;
+  font-size:18px;
+  color: #fff !important;
+ }
+
+:root {
+  --mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;
+ --main-blue: rgb(0, 174, 239);
+ --main-purple: rgb(133, 38, 255);
+}
+
+</style></svg>
