@@ -1,14 +1,14 @@
 ```mermaid
 erDiagram
-  Homepage {
+  HomepageLayout {
       string name PK
-      reference meta
+      metaSeo meta
       homepageHero hero
       homepageHeadlights headlightCards
   }
-  Homepage}|--||MetaSeo: references
-  Homepage}|--||HomepageHero: references
-  Homepage}|--||HomepageHeadlights: references
+  HomepageLayout}|--||MetaSeo: references
+  HomepageLayout}|--||HomepageHero: references
+  HomepageLayout}|--||HomepageHeadlights: references
   HomepageHero}|--|{VerticalCard: references
   VerticalCard}|--|{PageLink: references
   HomepageHeadlights}|--|{HeadlightCard: references
@@ -40,8 +40,10 @@ erDiagram
     pageLink buttonLink
   }
   PageLink {
-    string label PK
-    reference path "This is a page reference but is not represented here for brevity"
+    string nane PK
+    string title
+    string url "Implemented to support linkng to external pages"
+    page page
   }
   HeadlightCard {
     string name PK

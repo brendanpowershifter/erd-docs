@@ -14,4 +14,11 @@ erDiagram
     bool isVisibleInNav
     pageTemplate template
   }
+
+  PageLink {
+    string name PK
+    string title
+    string url "Implemented to support linkng to external pages"
+    page page
+  }
 ```

@@ -8,7 +8,7 @@ const renderMermaid = async (input = defaultInputDir, output = defaultOutputDir)
   const styles = readFileSync("./style.css", "utf-8");
   const files = readdirSync(input);
   for (const file of files) {
-    await run(`./src/${file}`, `./renders/${parse(file).name}.svg`, { parseMMDOptions: { backgroundColor: "transparent", myCSS: styles } });
+    await run(`./src/${file}`, `./renders/${parse(file).name}.svg`, { parseMMDOptions: { backgroundColor: "transparent", myCSS: styles, mermaidConfig: { theme: "null" } } });
   }
 };
 renderMermaid();
