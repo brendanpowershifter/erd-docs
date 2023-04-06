@@ -8,6 +8,7 @@
     RichText||--o{Accordion: has
     Accordion||--|{AccordionItem: "has many"
     RichText||--o{TopicLink: has
+    RichText||--o{PaymentCalculator: has
     RichText
     TopicLink {
       string name PK
@@ -47,6 +48,7 @@
     Tabs {
       string name PK
       string header
+      string tabPosition "one of top, left, right"
       tab[] tabs
     }
     Tab {
@@ -64,5 +66,18 @@
       string name PK
       string header
       richText content
+    }
+    PaymentCalculator {
+      string name PK
+      string preamble
+      string premiumInputLabel
+      string interestInputLabel
+      string savingsCtaLabel
+      string savingsString
+      string compareString
+      string interestResultLabel
+      string paymentPlanResultLabel
+      string monthlyPaymentResultLabel
+      string disclaimer
     }
 ```

@@ -9,6 +9,7 @@
   Page||--o|TopicLayout: references
   Navigation {
     string name PK
+    reference alertBanner
     page[] pages
   }
   Page {
