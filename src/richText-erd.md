@@ -33,11 +33,11 @@
     Column {
       string name PK
       richText content
-      number xsSpan "1-12"
-      number smSpan "1-12"
-      number mdSpan "1-12"
-      number lgSpan "1-12"
-      number xlSpan "1-12"
+      number xsSpan "0-12"
+      number smSpan "0-12"
+      number mdSpan "0-12"
+      number lgSpan "0-12"
+      number xlSpan "0-12"
       string xsHorizontalAlignment "one of left, center, right"
       string smHorizontalAlignment "one of left, center, right"
       string mdHorizontalAlignment "one of left, center, right"
@@ -85,7 +85,6 @@
     }
     SteppedAccordionStep {
       string name PK
-      string header
       accordionItem[] items
     }
      PageLink {
