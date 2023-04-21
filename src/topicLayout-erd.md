@@ -1,7 +1,7 @@
 ```mermaid
   erDiagram
-    TopicLayout||--||RichText: has
-    TopicLayout {
+    BasicContentPage||--||RichText: has
+    BasicContentPage {
       string name PK
       string title
       richText content

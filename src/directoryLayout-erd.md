@@ -1,10 +1,10 @@
 ```mermaid
   erDiagram
 
-  DirectoryLayout||--||DirectorySectionLinks: has
-  DirectoryLayout||--||DirectorySectionHero: has
+  PrimaryLandingPage||--||DirectorySectionLinks: has
+  PrimaryLandingPage||--||DirectorySectionHero: has
   DirectorySectionHero||--|{PageLink: contains
-  DirectoryLayout {
+  PrimaryLandingPage {
     string name PK
     string header
     directorySectionHero hero

@@ -11,6 +11,7 @@ const renderMermaid = async (input = defaultInputDir, output = defaultOutputDir)
 
   for(const file of files) {
     await run(`./src/${file}`, `./renders/${parse(file).name}.svg`, { parseMMDOptions: { backgroundColor: 'transparent', myCSS: styles, mermaidConfig: { theme: 'null'}} })
+    await run(`./src/${file}`, `./renders/${parse(file).name}.png`, { parseMMDOptions: { backgroundColor: 'transparent', myCSS: styles, mermaidConfig: { theme: 'null'}} })
   }
 }
 

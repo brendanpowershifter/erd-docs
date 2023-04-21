@@ -82,7 +82,7 @@ svg {
 
 :root {
   --mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;
- --main-blue: rgb(0, 174, 239);
+ --main-blue: #00aeef;
  --main-purple: rgb(133, 38, 255);
 }
 

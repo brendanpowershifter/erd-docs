@@ -1,6 +1,7 @@
 ```mermaid
   erDiagram
-    RichText||--o{Column: has
+    RichText||--o{ColumnLayout: has
+    ColumnLayout||--|{Column: "has many"
     RichText||--o{Alert: has
     RichText||--o{Button: has
     RichText||--o{Tabs: has
@@ -8,26 +9,35 @@
     RichText||--o{Accordion: has
     Accordion||--|{AccordionItem: "has many"
     RichText||--o{TopicLink: has
-    RichText||--o{PaymentCalculator: has
+    TopicLink||--o|PageLink: has
+    TopicLink||--o|ExternalLink: has
+    RichText||--o{OneOffComponents: has
+    RichText||--o{SteppedAccordion: has
+    SteppedAccordion||--|{SteppedAccordionStep: "has many"
+    SteppedAccordionStep||--|{AccordionItem: "has many"
     RichText
     TopicLink {
       string name PK
-      pageLink link
+      pageLinkOrExternalLink link
       string description
+    }
+    ColumnLayout {
+      string name PK
+      column[] columns
+      string smVerticalAlignment "one of top, center, bottom"
+      string mdVerticalAlignment "one of top, center, bottom"
+      string xsVerticalAlignment "one of top, center, bottom"
+      string lgVerticalAlignment "one of top, center, bottom"
+      string xlVerticalAlignment "one of top, center, bottom"
     }
     Column {
       string name PK
       richText content
-      number xs "1-12"
-      number sm "1-12"
-      number md "1-12"
-      number lg "1-12"
-      number xl "1-12"
-      number xsOffset "1-12"
-      number smOffset "1-12"
-      number mdOffset "1-12"
-      number lgOffset "1-12"
-      number xlOffset "1-12"
+      number xsSpan "1-12"
+      number smSpan "1-12"
+      number mdSpan "1-12"
+      number lgSpan "1-12"
+      number xlSpan "1-12"
       string xsHorizontalAlignment "one of left, center, right"
       string smHorizontalAlignment "one of left, center, right"
       string mdHorizontalAlignment "one of left, center, right"
@@ -48,7 +58,7 @@
     Tabs {
       string name PK
       string header
-      string tabPosition "one of top, left, right"
+      string tabLayout "one of horizontal, vertical"
       tab[] tabs
     }
     Tab {
@@ -67,17 +77,29 @@
       string header
       richText content
     }
-    PaymentCalculator {
+    SteppedAccordion {
       string name PK
-      string preamble
-      string premiumInputLabel
-      string interestInputLabel
-      string savingsCtaLabel
-      string savingsString
-      string compareString
-      string interestResultLabel
-      string paymentPlanResultLabel
-      string monthlyPaymentResultLabel
-      string disclaimer
+      string header
+      boolean isMulti "If true, multiple items can be open at once"
+      steppedAccordionStep[] steps
+    }
+    SteppedAccordionStep {
+      string name PK
+      string header
+      accordionItem[] items
+    }
+     PageLink {
+      string name PK
+      string title
+      page page
+    }
+    ExternalLink {
+      string name PK
+      string title
+      string url
+    }
+    OneOffComponents {
+      string name PK
+      string type "one of paymentCalculator, others to be added"
     }
 ```
